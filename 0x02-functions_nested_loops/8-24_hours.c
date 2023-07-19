@@ -1,4 +1,5 @@
-   #include <stdio.h> 
+   #include "main.h"
+ 
    /**
    * print_last_dgt - prints the last dgt
    * @n: the number 
