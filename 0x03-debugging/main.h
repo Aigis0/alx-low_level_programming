@@ -7,4 +7,8 @@ void positive_or_negative(int i);
 
 int largest_number(int a, int b, int c)
 
+3-convert_day.c
+
+void print_remaining_days(int month, int day, int year)
+
 #endif /* MAIN_H */
