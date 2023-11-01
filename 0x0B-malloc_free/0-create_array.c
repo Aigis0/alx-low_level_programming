@@ -3,11 +3,12 @@
 
 /**
  * create_array - creates an array of chars
- *@size: the size of the array
- *@c: the char to fill up the array
+ * @size:the size of the array
+ * @c: the chars for the array
  *
- *return: the array filled
+ * Return: the array filled
  */
+
 char *create_array(unsigned int size, char c)
 {
         unsigned int i;
