@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
- * string_nconcat - concatenates strings
- * @s1: string 1
- * @s2: string 2
- * @n: concatenate from s2
- * Return: point to memory of concatenated string
- */
+ /**
+  * string-nconcat - concatenates 2 strings
+  * @s1: string 1
+  * @s2: string 2
+  * @n: concatenate string 2
+  * Return: concatenated string
+  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -45,4 +45,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			output[s1len + i] = s2[i];
 		output[s1len + i] = '\0';
 	}
-	return (output);}
+	return (output);
+}
